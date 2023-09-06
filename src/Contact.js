@@ -9,20 +9,20 @@ const Contact = () => {
             <h2>Tel: <a className="underline" href="tel: +66629825623">+66 (0) 62 982 5623</a></h2>
             <hr />
             <h2>Follow Me:</h2>
-            <div className="flex flex-row flex-wrap justify-evenly">
+            <section className="flex flex-row flex-wrap justify-evenly">
                 <div className="contact">
-                    <a href="https://github.com/Tatpolc"><QRCode value="https://github.com/Tatpolc" /></a>
-                    <span><h3 className="contact-qr-cap"><a href="https://github.com/Tatpolc">Github</a></h3></span>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Tatpolc"><QRCode value="https://github.com/Tatpolc" /></a>
+                    <span><h3 className="contact-qr-cap"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Tatpolc">Github</a></h3></span>
                 </div>
                 <div className="contact">
-                    <a href="https://www.linkedin.com/in/tatpol-chutipat/"><QRCode value="https://www.linkedin.com/in/tatpol-chutipat/" /></a>
-                    <span><h3 className="contact-qr-cap"><a href="https://www.linkedin.com/in/tatpol-chutipat/">LinkedIn</a></h3></span>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tatpol-chutipat/"><QRCode value="https://www.linkedin.com/in/tatpol-chutipat/" /></a>
+                    <span><h3 className="contact-qr-cap"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tatpol-chutipat/">LinkedIn</a></h3></span>
                 </div>
                 <div className="contact">
-                    <a href="https://www.facebook.com/tatpol.chutipat.9"><QRCode value="https://www.facebook.com/tatpol.chutipat.9" /></a>
-                    <span><h3 className="contact-qr-cap"><a href="https://www.facebook.com/tatpol.chutipat.9">Facebook</a></h3></span>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tatpol.chutipat.9"><QRCode value="https://www.facebook.com/tatpol.chutipat.9" /></a>
+                    <span><h3 className="contact-qr-cap"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tatpol.chutipat.9">Facebook</a></h3></span>
                 </div>
-            </div>
+            </section>
         </div>
      );
 }

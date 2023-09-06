@@ -7,7 +7,7 @@ const Navbar = () => {
                 <div className="ml-auto">
                     <Link className="nav-link" to="/">Home</Link>
                     <Link className="nav-link" to="/skills">Skills</Link>
-                    <Link className="nav-link" to="/project">Projects</Link>
+                    <Link className="nav-link" to="/projects">Projects</Link>
                     <Link className="nav-link" to="/about">About Me</Link>
                     <Link className="nav-link" to="/contact">Contact</Link>
                 </div>
