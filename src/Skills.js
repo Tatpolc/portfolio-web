@@ -1,26 +1,30 @@
-import {SiCss3, SiHtml5, SiJavascript, SiPython, SiReact, SiSqlite, SiTailwindcss} from "react-icons/si"
+import {SiCss3, SiHtml5, SiJavascript, SiPython, SiReact, SiSqlite, SiTailwindcss, SiBootstrap} from "react-icons/si"
+import { IconContext } from "react-icons";
 
 const Skills = () => {
     return ( 
-        <div className="lang">
+        <div>
+            <IconContext.Provider value={{size: "1.5em"}}>
             <h2>Core Language</h2>
-            <div className="lang-icon">
-                <p><SiJavascript/> <SiPython/></p>
-            </div>
-            <br />
+            <ul>
+                <li className="skill-li"><SiJavascript className="skill-icon"/> - Javascript</li>
+                <li className="skill-li"><SiPython className="skill-icon"/> - Python</li>
+            </ul>
             <hr />
-            <br />
             <h2>Frontend</h2>
-            <div className="lang-icon">
-                <p><SiHtml5/> <SiCss3/> <SiReact/> <SiTailwindcss/></p>
-            </div>
-            <br />
+            <ul>
+                <li className="skill-li"><SiHtml5 className="skill-icon"/> - HTML5</li>
+                <li className="skill-li"><SiCss3 className="skill-icon"/> - CSS3</li>
+                <li className="skill-li"><SiBootstrap className="skill-icon"/> - Bootstrap</li>
+                <li className="skill-li"><SiTailwindcss className="skill-icon"/> - Tailwind CSS</li>
+                <li className="skill-li"><SiReact className="skill-icon"/> - React</li>
+            </ul>
             <hr />
-            <br />
             <h2>Database</h2>
-            <div className="lang-icon">
-                <p><SiSqlite/></p>
-            </div>
+            <ul>
+                <li className="skill-li"><SiSqlite className="skill-icon"/> - Sqlite</li>
+            </ul>
+            </IconContext.Provider>
         </div>
      );
 }

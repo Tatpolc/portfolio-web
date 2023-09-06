@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 const AboutMe = () => {
     return ( 
-        <div className="about-me">
-            <h2 style={{marginBottom: 10}}>About Me</h2>
+        <div>
+            <h2>About Me</h2>
             <article>
                 <p>I am a self-taught front-end developer. This is the new chapter of my Life.</p>
-                <p>I started studying web-development from scratch. Although before this I've been messing around with some Python and SQLite. You can learn more about this project in the <a href="/project">Project</a>.</p>
+                <p>I started studying web-development from scratch. Although before this I've been messing around with some Python and SQLite. You can learn more about this project in the <Link className="underline hover:text-[#1877f2]" to="/project">Project</Link>.</p>
                 <p>The reason that I become a front-end developer is because I don't have a computer science degree and I feel that this route is the best route for me to enter the programming world.</p>
             </article>
             <br />
             <hr />
             <br />
-            <div className="work-exp">
+            <div>
                 <h3>Professional Experience</h3>
                 <h4>Accountant, Customer Service, Secretary to the Director - CSI Society Co., Ltd.</h4>
                 <p>- Perform accounting duties in all aspect of the company</p>
@@ -25,7 +27,7 @@ const AboutMe = () => {
             <br />
             <hr />
             <br />
-            <div id="education">
+            <div>
                 <h3>Education</h3>
                 <h4>Bachelor Degree</h4>
                 <p>Hotel and Restaurant Management Program, Rangsit University</p>
@@ -38,7 +40,7 @@ const AboutMe = () => {
             <br />
             <hr />
             <br />
-            <div className="comm">
+            <div>
                 <h3>Communication</h3>
                 <p>Excellent command of Thai (Native)</p>
                 <p>Excellent command of English (TOEIC - 955)</p>
@@ -46,7 +48,7 @@ const AboutMe = () => {
             <br />
             <hr />
             <br />
-            <div className="extra">
+            <div>
                 <h3>Volunteer Work</h3>
                 <h4>Bangkok's FIR Chief - International Virtual Aviation Organization, Thailand Division</h4>
                 <p>- Responsible for maintaining the aerospace data in the game server.</p>

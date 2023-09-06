@@ -11,9 +11,9 @@ function App() {
   return (
     <BrowserRouter basename="/portfolio-web">
       <body>
-        <div className="App">
+        <div className="flex min-h-screen flex-col">
           <Navbar />
-          <div className="content">
+          <div className="p-5 flex-grow items-center my-10 mx-auto w-11/12 overflow-y-auto overflow-x-hidden">
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/skills" element={<Skills />} />

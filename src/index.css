@@ -1,98 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poppins:wght@200;400;600&family=Work+Sans:wght@400;500;800&display=swap');
 
-* {
-  font-family: 'Poppins';
-  margin: 0;
-  color: #333;
+@import "tailwindcss/base";
+
+@layer base {
+  h1 {
+    @apply my-6 text-3xl font-bold
+  }
+  h2 {
+    @apply my-5 text-2xl font-semibold
+  }
+  h3 {
+    @apply my-4 text-xl font-semibold
+  }
+  h4 {
+    @apply my-3 text-lg font-medium
+  }
 }
 
-.App {
-  display: flex;
-  min-height: calc(100vh - 20px);
-  flex-direction: column;
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.nav-link {
+  @apply ml-4 text-lg no-underline p-1.5 hover:text-[#1877f2]
 }
 
-
-.navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  border-bottom: 1px solid #d5d5d5;
-  width: 90%;
-}
-.navbar h1 {
-  color: #1877f2;
-}
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-.navbar a:hover {
-  color: #1877f2;
+.foot-icon {
+  @apply ml-4 no-underline p-1 content-start h-4 w-auto
 }
 
-.content {
-  left: 25px;
-  flex: 1;
-  padding: 20px;
-  margin: 40px auto;
-  width: 90%;
-  overflow-y: auto;
-  overflow-x: hidden;
+/*Skill Page CSS*/
+.skill-li {
+  @apply p-3
+}
+.skill-icon {
+  @apply inline
 }
 
-.footer {
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  border-top: 1px solid #d5d5d5;
-  width: 90%;
-  left: 25px;
+/*Contact Page CSS*/
+.contact {
+  @apply flex flex-col items-center m-5
 }
-
-.footer a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 3px;
-  align-content: flex-start;
+.contact-qr {
+  @apply flex-1 m-2
 }
-
-#copy-button {
-  border: 0;
-  font-size: 20px;
-  background-color: #fff;
-  transition-duration: 0.5s;
-}
-#copy-button:hover {
-  box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.25);
-  cursor: pointer;
-}
-#copy-button:active {
-  border: 1px solid #d5d5d5;
-}
-
-.main-contact {
-  margin: 25px auto;
-  width: 90%;
-  display: flex;
-  flex-flow: row wrap;
-}
-#contact {
-  flex: 1;
-  box-sizing: border-box;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  padding: 30px;
-}
-#qr-code {
-  max-width: 100%;
-  border-top: 1px solid #d5d5d5;
+.contact-qr-cap {
+  @apply underline text-lg font-semibold m-4 hover:text-[#1877f2] active:border active:border-solid active:border-[#333]
 }
