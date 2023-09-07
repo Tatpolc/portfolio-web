@@ -9,6 +9,7 @@ const Home = () => {
             <p>My active and past project will be at the <Link className="home-link" to="/projects">projects</Link> page.</p>
             <p>If you would love to learn more about me, please see the <Link className="home-link" to="/about">about me</Link> page.</p>
             <p>And lastly, if you would like to contact or follow me, it will be in the <Link className="home-link" to="/contact">contact</Link> page.</p>
+            <p>Link to my full <Link className="home-link" target="_blank" rel="noopener noreferrer" to="https://drive.google.com/file/d/1DK6TjRhhJbRRgxC7cLBabX4Yt_7HH7TT/view?usp=sharing">Resume</Link>.</p>
         </div>
      );
 }

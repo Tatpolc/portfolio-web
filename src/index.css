@@ -41,6 +41,9 @@
 }
 
 /*Contact Page CSS*/
+.contact-info {
+  @apply underline hover:text-[#1877f2]
+}
 .contact {
   @apply flex flex-col items-center m-5
 }
