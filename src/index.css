@@ -15,6 +15,9 @@
   h4 {
     @apply my-3 text-lg font-medium
   }
+  h5 {
+    @apply my-2 font-medium
+  }
 }
 
 @import "tailwindcss/components";

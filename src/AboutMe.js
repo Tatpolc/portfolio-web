@@ -15,6 +15,7 @@ const AboutMe = () => {
             <div>
                 <h3>Professional Experience</h3>
                 <h4>Accountant, Customer Service, Secretary to the Director - CSI Society Co., Ltd.</h4>
+                <h5>2021 - 2023</h5>
                 <p>- Perform accounting duties in all aspect of the company.</p>
                 <p>- Organizing a seminar event for the company.</p>
                 <p>- Coordinating with location and staff in organizing the event.</p>
@@ -23,9 +24,9 @@ const AboutMe = () => {
                 <p>- Send brief in order to create a webpage for each company visit.</p>
                 <p>- Taking care of attendee in both domestic and international company visit.</p>
                 <p>- Answer question in the company’s social media account.</p>
-                <p>2021 - 2023</p>
                 <br />
                 <h4>Information Technology Trainee - St. Regis Bangkok Hotel</h4>
+                <h5>2020</h5>
                 <p>Performing duties to assist associates with software and hardware problems and diagnose hotel’s system whenever there is a problem.</p>
                 <p>- Making item inventory list for all of IT department component.</p>
                 <p>- Update and maintain all the hotel’s computer.</p>
@@ -33,7 +34,6 @@ const AboutMe = () => {
                 <p>- Run quarterly check on the hotel systems and write the report to be submit to the General Manager.</p>
                 <p>- Maintain the LAN switch and inform maintenance if replacement is needed.</p>
                 <p>- Coordinate with engineering and maintenance when upgrading the hotel’s system.</p>
-                <p>2020</p>
             </div>
             <br />
             <hr />
@@ -63,7 +63,7 @@ const AboutMe = () => {
                 <h3>Volunteer Work</h3>
                 <h4>Bangkok's FIR Chief - International Virtual Aviation Organization, Thailand Division</h4>
                 <p>- Responsible for maintaining the aerospace data in the game server.</p>
-                <p>2020 - Present</p>
+                <p>2019 - Present</p>
                 <br />
                 <h3>Extracurricular Activities</h3>
                 <p>- Providing food and beverage service for college and university events (Student Orientation and Graduation Ceremony)</p>
