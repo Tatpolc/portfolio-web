@@ -25,7 +25,11 @@
 }
 
 .foot-icon {
-  @apply ml-4 no-underline p-1 content-start h-4 w-auto
+  @apply ml-4 no-underline p-2 content-start h-4 w-auto
+}
+
+.home-link {
+  @apply underline hover:text-[#1877f2]
 }
 
 /*Skill Page CSS*/
